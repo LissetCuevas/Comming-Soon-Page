@@ -22,11 +22,7 @@ html {
 }
 
 body {
-	background-image: url("../img/lukas.png");
-	background-position: center; 
-	background-size: cover;
-	width: 100%;
-	height: 100vh;
+	background-color: #FFF9F1;
 	color: #8D644D;
 	font-family:"Cormorant Garamond", serif;
 	font-weight: 300;
@@ -35,6 +31,7 @@ body {
 	line-height: 1.75;
 	word-wrap: break-word;
 	display: flex;
+	height: 100vh;
 }
 
 section {
@@ -52,4 +49,8 @@ h1 {
 
 p {
 	font-size: 4rem;
+}
+
+img {
+	margin: auto;
 }
